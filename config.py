@@ -10,15 +10,16 @@ import os
 # 2. If left empty (""), you MUST enter your token manually in the GUI every time.
 # 3. For production, ALWAYS use environment variables.
 # DEFAULT_TOKEN = "YOUR_ACTUAL_DISCORD_TOKEN_GOES_HERE_LIKE_THIS" # Original placeholder
-DEFAULT_TOKEN = "MTM3NjIyODc4NTI5NjUwNzAyMQ.GiE_bt.XNzieCTtEMFC4iNi1HvLF8vfncQuJQKYdG6v_8" # Per your request, this is unchanged.
+DEFAULT_TOKEN = "DISCORD_TOKEN_HERE" # Per your request, this is unchanged.
 
 # You can now enter one or more Channel IDs, separated by a comma.
-DEFAULT_CHANNEL_ID = "1337164214631927872, 1294402841628250162" # <--- REPLACE THIS WITH YOUR DESIRED CHANNEL IDs
+DEFAULT_CHANNEL_ID = "CHANNEL_ID_1, CHANNEL_ID_2" # <--- REPLACE THIS WITH YOUR DESIRED CHANNEL IDs
 
 # Default download directory
 # Using a relative path is more portable across different computers.
 # This will create a 'discord_downloads' folder in the same directory as the script.
-DOWNLOAD_DIR = r"F:\prompt results\discord"
+#DOWNLOAD_DIR = r"F:\prompt results\discord"
+DOWNLOAD_DIR = "DOWNLOAD_PATH"
 
 # File names for persistent data
 PROXIES_FILE = "proxies.txt"
@@ -68,4 +69,5 @@ USER_AGENT_LIST = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     # Firefox on macOS
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0"
+
 ]
