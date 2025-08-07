@@ -27,7 +27,7 @@ A powerful and robust GUI-based scraper for downloading and automatically organi
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/Discord-Media-Scraper.git](https://github.com/your-username/Discord-Media-Scraper.git)
+    git clone https://github.com/byte-sec/Discord-Media-Scraper.git
     cd Discord-Media-Scraper
     ```
 
